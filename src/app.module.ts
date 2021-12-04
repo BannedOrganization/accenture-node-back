@@ -4,6 +4,9 @@ import { AppService } from './app.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import configuration from 'config/configuration';
 import { ConfigModule } from '@nestjs/config';
+import { RecognitorsModule } from './modules/recognitors/index.module';
+import { UserModule } from './modules/users/index.module';
+import { CompanyModule } from './modules/companies/index.module';
 
 @Module({
   imports: [
@@ -15,6 +18,9 @@ import { ConfigModule } from '@nestjs/config';
     ConfigModule.forRoot({
       load: [configuration],
     }),
+    RecognitorsModule,
+    UserModule,
+    CompanyModule,
   ],
   controllers: [AppController],
   providers: [AppService],

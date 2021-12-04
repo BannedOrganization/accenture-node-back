@@ -6,6 +6,7 @@ export default () => ({
         ? process.env.DATABASE_HOST
         : process.env.DATABASE_HOST_DEV,
   },
+  ml_host: process.env.ML_HOST,
   shutdown_stop: process.env.SHUTDOWN_STOP || 30,
   attemtps_to_retry: process.env.ATTEMPTS_TO_RETRY || 5,
   jwt_secret: process.env.JWT_SECRET,

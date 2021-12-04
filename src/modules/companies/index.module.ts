@@ -13,4 +13,4 @@ import { Company, CompanySchema } from './schemas/company.schema';
   providers: [CompanyService, AuthGuard],
   exports: [CompanyService],
 })
-export class UserModule {}
+export class CompanyModule {}

@@ -1,73 +1,49 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
+<h4>Реализованная функциональность</h4>
+<ul>
+    <li>Определение доли брака в сырье</li>
+    <li>Управление поставками сырья</li>
+    <li>Определение гос номеров</li>
+    <li>Учет ведения контактов и компаний</li>
+</ul> 
+<h4>Особенность проекта в следующем:</h4>
+<ul>
+ <li>CMS система для управления поставками сырья и их статусом;</li>
+ <li>Определение доли брака сырья</li>
+ <li>Определение номеров приближающихся составов</li>  
+ </ul>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+<h4>Основной стек технологий:</h4>
+<ul>
+  <li>NodeJS, TypesScript, NestJS, React.</li>
+	<li>Python, Django, Celery, Redis</li>
+	<li>OpenCV, Keras, PyTorch.</li>
+  <li>Mongodb.</li>
+ </ul>
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<h4>Демо</h4>
+<p>Демо сервиса доступно по адресу: https://8485-178-66-208-236.eu.ngrok.io </p>
 
-## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
 
-```bash
-$ npm install
-```
+### СРЕДА ЗАПУСКА BACKEND application
+------------
+1) NodeJS 14.17+
+2) MongoDB latest version
 
-## Running the app
+### УСТАНОВКА
+------------
+1. git clone https://github.com/BannedOrganization/accenture-node-back
+2. cd accenture-node-back
+3. npm i
+4. npm run build
+5. npm run start
 
-```bash
-# development
-$ npm run start
 
-# watch mode
-$ npm run start:dev
+### Конфигурация
+В файле .env укажите пути до:
+1. Mongo DB: DATABASE_HOST
 
-# production mode
-$ npm run start:prod
-```
+### РАЗРАБОТЧИКИ
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+<h4>Алексей Назаров backend | telegram: @alkesJS </h4>

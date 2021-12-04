@@ -101,7 +101,7 @@ export class CompanyService {
 
     return {
       count: countOfCompanies,
-      hasMore: companies.length + offset >= countOfCompanies,
+      hasMore: companies.length + offset <= countOfCompanies,
       results: companies,
     };
   }
